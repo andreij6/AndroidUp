@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Primer</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="learn_page_title">Learn</string>
+    <string name="quiz_page_title">Quiz</string>
+    <string name="study_page_title">Study</string>
+    <string name="action_profile">View Profile</string>
+    <string name="action_android_curriculum">Learn Android</string>
+    <string name="action_java_curriculum">Learn Java</string>
+</resources>
