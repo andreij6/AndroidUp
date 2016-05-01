@@ -11,6 +11,7 @@ public class AndroidCurriculum implements Curriculum {
     public List<Course> getCourses() {
         return Arrays.asList(
                 new GlossaryCourse(),       //http://developer.android.com/guide/appendix/glossary.html
-                new AppComponentCourse());
+                new AppComponentCourse(),
+                new AppResourcesCourse());
     }
 }

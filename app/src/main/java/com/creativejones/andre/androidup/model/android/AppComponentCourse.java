@@ -3,6 +3,7 @@ package com.creativejones.andre.androidup.model.android;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.creativejones.andre.androidup.R;
 import com.creativejones.andre.androidup.model.Course;
 
 import java.util.Arrays;
@@ -11,12 +12,12 @@ import java.util.List;
 
 public class AppComponentCourse extends Course {
     public AppComponentCourse() {
-        super("App Components");
+        super("App Components", R.color.app_component_color, R.dimen.course_box_appcomponent_height);
     }
 
 
     public AppComponentCourse(Parcel in){
-        super(in.readString());
+        super(in);
     }
 
     public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {

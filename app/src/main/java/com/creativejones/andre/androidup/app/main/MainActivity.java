@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements IMainView {
 
         intent.putExtra(Course.EXTRA_FLAG, course);
 
-        startActivity(new Intent(this, LearnActivity.class));
+        startActivity(intent);
     }
     //endregion
 

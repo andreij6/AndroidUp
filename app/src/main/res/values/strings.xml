@@ -6,6 +6,6 @@
     <string name="quiz_page_title">Quiz</string>
     <string name="study_page_title">Study</string>
     <string name="action_profile">View Profile</string>
-    <string name="action_android_curriculum">Learn Android</string>
-    <string name="action_java_curriculum">Learn Java</string>
+    <string name="action_android_curriculum">Android Primer</string>
+    <string name="action_java_curriculum">Java Primer</string>
 </resources>

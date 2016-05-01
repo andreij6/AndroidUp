@@ -6,7 +6,7 @@
         android:id="@+id/action_profile"
         android:orderInCategory="1"
         android:title="@string/action_profile"
-        android:icon="@drawable/ic_account_outline_white_24dp"
+        android:icon="@drawable/ic_account_outline_grey600_24dp"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_android_curriculum"

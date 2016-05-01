@@ -2,6 +2,7 @@ package com.creativejones.andre.androidup.app.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
@@ -30,9 +31,9 @@ public class LearnFragment extends BaseMainFragment {
     }
 
     private void setupRecycler() {
-        Recycler.setAdapter(new LearnAdapter((LearnAdapter.OnInteractionListener) getActivity(), getCurrentCurriculum()));
+        Recycler.setAdapter(new LearnAdapter(getActivity(), getCurrentCurriculum()));
 
-        Recycler.setLayoutManager(new StaggeredGridLayoutManager(2, 1));
+        Recycler.setLayoutManager(new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL));
     }
 
     public Curriculum getCurrentCurriculum() {
